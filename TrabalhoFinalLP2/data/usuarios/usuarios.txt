@@ -1,0 +1,2 @@
+1;usuario;senha;usuarios//dinizjunioo;vip
+2;usuario2;senha2;usuarios//dinizjunioo1;comum

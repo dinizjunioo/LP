@@ -1,0 +1,743 @@
+version 2
+JvmtiExport can_access_local_variables 1
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 1
+# 260 ciObject found
+instanceKlass org/eclipse/jdt/launching/internal/org/objectweb/asm/ClassReader
+ciInstanceKlass java/lang/Cloneable 1 0 7 100 1 100 1 1 1
+instanceKlass jdk/jfr/FlightRecorder
+instanceKlass  @bci com/sun/javafx/logging/PulseLogger isPulseLoggingRequested ()Z 0 <appendix> argL0 ; # com/sun/javafx/logging/PulseLogger$$Lambda$190+0x0000000800dc2878
+instanceKlass com/sun/javafx/logging/PrintLogger$PulseData
+instanceKlass  @bci com/sun/javafx/logging/PrintLogger <clinit> ()V 18 <appendix> argL0 ; # com/sun/javafx/logging/PrintLogger$$Lambda$189+0x0000000800dc2478
+instanceKlass  @bci com/sun/javafx/logging/PrintLogger <clinit> ()V 0 <appendix> argL0 ; # com/sun/javafx/logging/PrintLogger$$Lambda$188+0x0000000800dc2270
+instanceKlass com/sun/javafx/logging/Logger
+instanceKlass com/sun/javafx/logging/PulseLogger
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass java/util/Formattable
+instanceKlass java/util/Formatter$Flags
+instanceKlass java/util/Formatter$FormatSpecifier
+instanceKlass java/util/Formatter$Conversion
+instanceKlass java/util/Formatter$FixedString
+instanceKlass java/util/Formatter$FormatString
+instanceKlass java/util/Formatter
+instanceKlass javafx/scene/media/Track
+instanceKlass com/sun/media/jfxmedia/events/MetadataListener
+instanceKlass  @bci com/sun/javafx/scene/control/ControlAcceleratorSupport getSceneChangeListener (Ljava/lang/Object;Ljavafx/collections/ObservableList;)Ljavafx/beans/value/ChangeListener; 34 <appendix> member <vmtarget> ; # com/sun/javafx/scene/control/ControlAcceleratorSupport$$Lambda$187+0x0000000800dc0000
+instanceKlass com/sun/javafx/scene/control/ControlAcceleratorSupport
+instanceKlass javafx/stage/PopupWindow$3
+instanceKlass com/sun/javafx/util/TempState
+instanceKlass  @bci javafx/scene/Scene <init> (Ljavafx/scene/Parent;DDLjavafx/scene/paint/Paint;ZLjavafx/scene/SceneAntialiasing;)V 318 <appendix> member <vmtarget> ; # javafx/scene/Scene$$Lambda$186+0x0000000800db4fc8
+instanceKlass com/sun/javafx/logging/PlatformLogger$1
+instanceKlass javafx/css/converter/CursorConverter$Holder
+instanceKlass javafx/scene/Node$StyleableProperties
+instanceKlass com/sun/javafx/scene/layout/region/BorderImageSlices
+instanceKlass javafx/scene/layout/Region$StyleableProperties
+instanceKlass com/sun/javafx/css/StyleCache$Key
+instanceKlass javafx/scene/CssStyleHelper$CacheContainer
+instanceKlass  @bci com/sun/javafx/css/StyleMap <clinit> ()V 30 <appendix> argL0 ; # com/sun/javafx/css/StyleMap$$Lambda$185+0x0000000800dabc58
+instanceKlass com/sun/javafx/css/CascadingStyle
+instanceKlass com/sun/javafx/css/StyleMap
+instanceKlass com/sun/javafx/css/StyleManager$Cache$Key
+instanceKlass com/sun/javafx/css/StyleManager$Cache
+instanceKlass com/sun/javafx/css/StyleManager$Key
+instanceKlass  @bci com/sun/javafx/css/StyleManager findMatchingStyles (Ljavafx/scene/Node;Ljavafx/scene/SubScene;[Ljava/util/Set;)Lcom/sun/javafx/css/StyleMap; 251 <appendix> argL0 ; # com/sun/javafx/css/StyleManager$$Lambda$184+0x0000000800dab000
+instanceKlass com/sun/javafx/css/StyleManager$CacheContainer
+instanceKlass javafx/css/converter/FontConverter$FontStyleConverter$Holder
+instanceKlass javafx/css/converter/FontConverter$Holder
+instanceKlass com/sun/javafx/font/PrismFont
+instanceKlass com/sun/javafx/font/CharToGlyphMapper
+instanceKlass com/sun/javafx/font/FontStrike
+instanceKlass com/sun/javafx/font/LogicalFont
+instanceKlass com/sun/javafx/font/CompositeFontResource
+instanceKlass com/sun/javafx/font/directwrite/IUnknown
+instanceKlass  @bci com/sun/javafx/font/directwrite/OS <clinit> ()V 0 <appendix> argL0 ; # com/sun/javafx/font/directwrite/OS$$Lambda$183+0x0000000800dad978
+instanceKlass com/sun/javafx/font/directwrite/OS
+instanceKlass com/sun/javafx/text/GlyphLayout
+instanceKlass com/sun/javafx/font/PrismFontFile
+instanceKlass com/sun/javafx/font/FontConstants
+instanceKlass com/sun/javafx/scene/text/FontHelper
+instanceKlass javafx/scene/text/Font$1
+instanceKlass com/sun/javafx/scene/text/FontHelper$FontAccessor
+instanceKlass sun/util/logging/PlatformLogger$ConfigurableBridge$LoggerConfiguration
+instanceKlass java/util/logging/LogManager$4
+instanceKlass  @bci java/util/logging/Level$KnownLevel findByName (Ljava/lang/String;Ljava/util/function/Function;)Ljava/util/Optional; 29 <appendix> argL0 ; # java/util/logging/Level$KnownLevel$$Lambda$15+0x800000023
+instanceKlass java/util/ArrayList$ArrayListSpliterator
+instanceKlass  @bci java/util/logging/Level findLevel (Ljava/lang/String;)Ljava/util/logging/Level; 13 <appendix> argL0 ; # java/util/logging/Level$$Lambda$12+0x800000010
+instanceKlass  @bci com/sun/javafx/logging/PrintLogger <clinit> ()V 0 <bsm> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800da8000
+instanceKlass java/util/Hashtable$Enumerator
+instanceKlass java/util/Collections$3
+instanceKlass java/util/logging/LogManager$LoggerContext$1
+instanceKlass java/util/logging/LogManager$VisitedLoggers
+instanceKlass java/util/logging/Logger$ConfigurationData
+instanceKlass java/util/logging/Logger$LoggerBundle
+instanceKlass java/util/logging/Handler
+instanceKlass java/util/logging/Logger
+instanceKlass java/util/logging/LogManager$2
+instanceKlass java/util/logging/LogManager$LoggingProviderAccess
+instanceKlass java/util/logging/LogManager$LogNode
+instanceKlass java/util/logging/LogManager$LoggerContext
+instanceKlass java/util/logging/LogManager$1
+instanceKlass  @bci java/util/logging/Level$KnownLevel add (Ljava/util/logging/Level;)V 49 <appendix> argL0 ; # java/util/logging/Level$KnownLevel$$Lambda$14+0x800000022
+instanceKlass  @bci java/util/logging/Level$KnownLevel add (Ljava/util/logging/Level;)V 19 <appendix> argL0 ; # java/util/logging/Level$KnownLevel$$Lambda$13+0x800000021
+instanceKlass java/util/logging/Level
+instanceKlass java/util/logging/LogManager
+instanceKlass jdk/internal/logger/BootstrapLogger$BootstrapExecutors
+instanceKlass jdk/internal/logger/BootstrapLogger$RedirectedLoggers
+instanceKlass jdk/internal/logger/BootstrapLogger$DetectBackend$1
+instanceKlass jdk/internal/logger/BootstrapLogger$DetectBackend
+instanceKlass jdk/internal/logger/BootstrapLogger
+instanceKlass sun/util/logging/PlatformLogger$ConfigurableBridge
+instanceKlass sun/util/logging/PlatformLogger$Bridge
+instanceKlass sun/util/logging/internal/LoggingProviderImpl$LogManagerAccess
+instanceKlass java/io/FilePermission$1
+instanceKlass jdk/internal/access/JavaIOFilePermissionAccess
+instanceKlass jdk/internal/logger/LoggerFinderLoader
+instanceKlass  @bci java/lang/System$LoggerFinder accessProvider ()Ljava/lang/System$LoggerFinder; 6 <appendix> argL0 ; # java/lang/System$LoggerFinder$$Lambda$178+0x0000000800cf32f0
+instanceKlass jdk/internal/logger/DefaultLoggerFinder$1
+instanceKlass java/lang/System$LoggerFinder
+instanceKlass jdk/internal/logger/LazyLoggers$LazyLoggerFactories
+instanceKlass jdk/internal/logger/LazyLoggers$1
+instanceKlass jdk/internal/logger/LazyLoggers
+instanceKlass com/sun/javafx/logging/PlatformLogger
+instanceKlass com/sun/javafx/util/Logging
+instanceKlass javafx/scene/CssStyleHelper
+instanceKlass javafx/scene/Scene$ClickCounter
+instanceKlass javafx/scene/Scene$ClickGenerator
+instanceKlass javafx/scene/Scene$MouseHandler$1
+instanceKlass com/sun/javafx/event/EventQueue
+instanceKlass javafx/scene/Scene$MouseHandler
+instanceKlass com/sun/javafx/scene/traversal/TraversalEngine$BaseEngineContext
+instanceKlass com/sun/javafx/scene/traversal/ContainerTabOrder
+instanceKlass com/sun/javafx/scene/traversal/Algorithm
+instanceKlass com/sun/javafx/scene/traversal/TraversalContext
+instanceKlass  @bci javafx/scene/Scene <init> (Ljavafx/scene/Parent;DDLjavafx/scene/paint/Paint;ZLjavafx/scene/SceneAntialiasing;)V 172 <appendix> member <vmtarget> ; # javafx/scene/Scene$$Lambda$177+0x0000000800da51e8
+instanceKlass javafx/scene/Scene$TouchMap
+instanceKlass javafx/scene/Scene$TouchGesture
+instanceKlass javafx/scene/Scene$TargetWrapper
+instanceKlass javafx/scene/Scene$ScenePulseListener
+instanceKlass javafx/scene/SceneAntialiasing
+instanceKlass  @bci javafx/scene/Scene <clinit> ()V 76 <appendix> argL0 ; # javafx/scene/Scene$$Lambda$176+0x0000000800da3a18
+instanceKlass javafx/scene/Scene$2
+instanceKlass com/sun/javafx/tk/TKDropTargetListener
+instanceKlass com/sun/javafx/tk/TKScenePaintListener
+instanceKlass com/sun/javafx/tk/TKSceneListener
+instanceKlass com/sun/javafx/scene/SceneHelper$SceneAccessor
+instanceKlass com/sun/javafx/perf/PerformanceTracker$SceneAccessor
+instanceKlass com/sun/javafx/scene/SceneHelper
+instanceKlass javafx/scene/layout/BackgroundSize
+instanceKlass javafx/scene/layout/BackgroundPosition
+instanceKlass com/sun/javafx/scene/layout/region/RepeatStruct
+instanceKlass javafx/beans/value/WeakChangeListener
+instanceKlass  @bci javafx/stage/PopupWindow <init> ()V 29 <appendix> member <vmtarget> ; # javafx/stage/PopupWindow$$Lambda$175+0x0000000800d84400
+instanceKlass javafx/stage/PopupWindow$2
+instanceKlass javafx/scene/input/KeyCombination$Modifier
+instanceKlass javafx/stage/PopupWindow$1
+instanceKlass com/sun/javafx/stage/PopupWindowHelper$PopupWindowAccessor
+instanceKlass javafx/scene/control/TextFormatter$Change
+instanceKlass javafx/scene/control/TextFormatter
+instanceKlass  @bci javafx/scene/control/TextInputControl <init> (Ljavafx/scene/control/TextInputControl$Content;)V 260 <appendix> member <vmtarget> ; # javafx/scene/control/TextInputControl$$Lambda$174+0x0000000800d85838
+instanceKlass  @bci javafx/scene/control/TextInputControl <init> (Ljavafx/scene/control/TextInputControl$Content;)V 247 <appendix> member <vmtarget> ; # javafx/scene/control/TextInputControl$$Lambda$173+0x0000000800d85448
+instanceKlass  @bci javafx/scene/control/TextInputControl <init> (Ljavafx/scene/control/TextInputControl$Content;)V 234 <appendix> member <vmtarget> ; # javafx/scene/control/TextInputControl$$Lambda$172+0x0000000800d85238
+instanceKlass javafx/beans/property/IntegerPropertyBase$Listener
+instanceKlass com/sun/javafx/binding/BindingHelperObserver
+instanceKlass  @bci javafx/scene/control/TextInputControl <init> (Ljavafx/scene/control/TextInputControl$Content;)V 204 <appendix> member <vmtarget> ; # javafx/scene/control/TextInputControl$$Lambda$171+0x0000000800d86e50
+instanceKlass javafx/scene/control/TextInputControl$UndoRedoChange
+instanceKlass javafx/scene/control/IndexRange
+instanceKlass javafx/scene/control/TextField$TextFieldContent
+instanceKlass javafx/scene/control/TextInputControl$Content
+instanceKlass com/sun/javafx/scene/control/FormatterAccessor
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d84000
+instanceKlass  @bci javafx/scene/control/Menu <init> (Ljava/lang/String;Ljavafx/scene/Node;[Ljavafx/scene/control/MenuItem;)V 98 <appendix> member <vmtarget> ; # javafx/scene/control/Menu$$Lambda$170+0x0000000800d7fd08
+instanceKlass  @bci javafx/scene/control/ListView <init> (Ljavafx/collections/ObservableList;)V 101 <appendix> member <vmtarget> ; # javafx/scene/control/ListView$$Lambda$169+0x0000000800d7be60
+instanceKlass  @bci javafx/scene/control/ListView$ListViewFocusModel <init> (Ljavafx/scene/control/ListView;)V 123 <appendix> member <vmtarget> ; # javafx/scene/control/ListView$ListViewFocusModel$$Lambda$168+0x0000000800d7bc50
+instanceKlass javafx/scene/control/ListView$ListViewFocusModel$1
+instanceKlass  @bci javafx/scene/control/ListView$ListViewFocusModel <init> (Ljavafx/scene/control/ListView;)V 11 <appendix> member <vmtarget> ; # javafx/scene/control/ListView$ListViewFocusModel$$Lambda$167+0x0000000800d7b828
+instanceKlass  @bci javafx/scene/control/FocusModel <init> ()V 38 <appendix> member <vmtarget> ; # javafx/scene/control/FocusModel$$Lambda$166+0x0000000800d7b618
+instanceKlass java/util/stream/Sink$ChainedInt
+instanceKlass java/util/stream/Sink$OfInt
+instanceKlass java/util/function/IntConsumer
+instanceKlass  @bci java/util/stream/Collectors toList ()Ljava/util/stream/Collector; 14 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda$165+0x0000000800cf25d8
+instanceKlass  @bci java/util/stream/Collectors toList ()Ljava/util/stream/Collector; 9 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda$164+0x0000000800cf23c0
+instanceKlass  @bci java/util/stream/Collectors toList ()Ljava/util/stream/Collector; 4 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda$163+0x0000000800cf21b8
+instanceKlass  @bci java/util/stream/IntPipeline boxed ()Ljava/util/stream/Stream; 1 <appendix> argL0 ; # java/util/stream/IntPipeline$$Lambda$162+0x0000000800cf1ad0
+instanceKlass java/util/stream/IntStream
+instanceKlass java/util/BitSet$1BitSetSpliterator
+instanceKlass javafx/scene/control/ListView$ListViewBitSetSelectionModel$1
+instanceKlass javafx/scene/control/ListView$ListViewBitSetSelectionModel$2
+instanceKlass  @bci com/sun/javafx/scene/control/SelectedItemsReadOnlyObservableList <init> (Ljavafx/collections/ObservableList;Ljava/util/function/Supplier;)V 28 <appendix> member <vmtarget> ; # com/sun/javafx/scene/control/SelectedItemsReadOnlyObservableList$$Lambda$161+0x0000000800d7afd8
+instanceKlass  @bci javafx/scene/control/MultipleSelectionModelBase <init> ()V 40 <appendix> member <vmtarget> ; # javafx/scene/control/MultipleSelectionModelBase$$Lambda$160+0x0000000800d7adc8
+instanceKlass java/util/BitSet
+instanceKlass  @bci javafx/scene/control/MultipleSelectionModelBase <init> ()V 9 <appendix> member <vmtarget> ; # javafx/scene/control/MultipleSelectionModelBase$$Lambda$159+0x0000000800d77d18
+instanceKlass  @bci javafx/scene/control/ListView <init> (Ljavafx/collections/ObservableList;)V 11 <appendix> member <vmtarget> ; # javafx/scene/control/ListView$$Lambda$158+0x0000000800d71f58
+instanceKlass javafx/scene/control/FocusModel
+instanceKlass javafx/scene/control/SelectionModel
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d64c00
+instanceKlass java/lang/invoke/MethodHandle$1
+instanceKlass javafx/util/StringConverter
+instanceKlass javafx/beans/value/ObservableIntegerValue
+instanceKlass javafx/beans/value/WritableIntegerValue
+instanceKlass  @bci jdk/internal/reflect/MethodHandleObjectFieldAccessorImpl set (Ljava/lang/Object;Ljava/lang/Object;)V 41 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x0000000800d64800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d64400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d64000
+instanceKlass javafx/fxml/FXMLLoader$ControllerMethodEventHandler
+instanceKlass javafx/fxml/FXMLLoader$MethodHandler
+instanceKlass javafx/fxml/FXML
+instanceKlass javafx/scene/media/MediaPlayer
+instanceKlass javafx/scene/media/Media
+instanceKlass java/util/Timer
+instanceKlass javafx/fxml/FXMLLoader$ControllerAccessor$1
+instanceKlass java/lang/Class$AnnotationData
+instanceKlass java/lang/annotation/Documented
+instanceKlass javafx/beans/DefaultProperty
+instanceKlass com/sun/javafx/beans/IDProperty
+instanceKlass com/sun/javafx/image/impl/ByteRgba$Accessor
+instanceKlass com/sun/javafx/image/impl/ByteRgba
+instanceKlass com/sun/javafx/image/impl/ByteBgraPre$Accessor
+instanceKlass com/sun/javafx/image/impl/ByteBgraPre
+instanceKlass com/sun/javafx/image/impl/BaseByteToByteConverter
+instanceKlass com/sun/javafx/image/ByteToBytePixelConverter
+instanceKlass com/sun/javafx/image/PixelConverter
+instanceKlass com/sun/javafx/image/impl/ByteBgra$Accessor
+instanceKlass com/sun/javafx/image/BytePixelAccessor
+instanceKlass com/sun/javafx/image/BytePixelSetter
+instanceKlass com/sun/javafx/image/PixelSetter
+instanceKlass com/sun/javafx/image/BytePixelGetter
+instanceKlass com/sun/javafx/image/impl/ByteBgra
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d5cc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d5c800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d5c400
+instanceKlass  @bci com/sun/javafx/binding/ExpressionHelperBase trim (I[Ljava/lang/Object;)I 0 <appendix> argL0 ; # com/sun/javafx/binding/ExpressionHelperBase$$Lambda$157+0x0000000800d5e7e8
+instanceKlass  @bci javafx/scene/control/Label <init> ()V 6 <appendix> member <vmtarget> ; # javafx/scene/control/Label$$Lambda$156+0x0000000800d5baa0
+instanceKlass javafx/event/WeakEventHandler
+instanceKlass com/sun/javafx/event/CompositeEventHandler$EventProcessorRecord
+instanceKlass com/sun/javafx/event/CompositeEventHandler
+instanceKlass  @bci javafx/event/Event <clinit> ()V 0 <appendix> argL0 ; # javafx/event/Event$$Lambda$155+0x0000000800d5a320
+instanceKlass  @bci javafx/scene/control/Control <clinit> ()V 35 <appendix> argL0 ; # javafx/scene/control/Control$$Lambda$154+0x0000000800d5a118
+instanceKlass  @cpi javafx/scene/control/Control 553 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800d5c000
+instanceKlass com/sun/javafx/css/StyleManager$RefList
+instanceKlass javafx/css/converter/FontConverter$FontWeightConverter$Holder
+instanceKlass javafx/css/converter/StringConverter$Holder
+instanceKlass javafx/css/converter/FontConverter$FontSizeConverter$Holder
+instanceKlass javafx/css/converter/EffectConverter$Holder
+instanceKlass com/sun/javafx/scene/layout/region/Margins
+instanceKlass com/sun/javafx/scene/layout/region/Margins$Holder
+instanceKlass javafx/css/converter/BooleanConverter$Holder
+instanceKlass javafx/css/converter/SizeConverter$Holder
+instanceKlass javafx/css/converter/InsetsConverter$Holder
+instanceKlass com/sun/javafx/css/SelectorPartitioning$Slot
+instanceKlass com/sun/javafx/css/SelectorPartitioning$Partition
+instanceKlass javafx/css/converter/PaintConverter$Holder
+instanceKlass javafx/css/converter/StopConverter$Holder
+instanceKlass javafx/css/converter/LadderConverter$Holder
+instanceKlass javafx/css/converter/DeriveColorConverter$Holder
+instanceKlass javafx/css/converter/URLConverter$Holder
+instanceKlass javafx/css/StyleConverter
+instanceKlass javafx/css/Size
+instanceKlass javafx/css/ParsedValue
+instanceKlass javafx/css/Declaration
+instanceKlass javafx/css/Rule$Observables
+instanceKlass  @bci com/sun/javafx/css/SelectorPartitioning <clinit> ()V 28 <appendix> argL0 ; # com/sun/javafx/css/SelectorPartitioning$$Lambda$153+0x0000000800d4e000
+instanceKlass com/sun/javafx/css/SelectorPartitioning$PartitionKey
+instanceKlass com/sun/javafx/css/SelectorPartitioning
+instanceKlass com/sun/javafx/css/StyleManager$StylesheetContainer
+instanceKlass java/util/AbstractList$SubList$1
+instanceKlass javafx/collections/ModifiableObservableListBase$SubObservableList
+instanceKlass javafx/css/StyleClass
+instanceKlass javafx/css/Rule
+instanceKlass javafx/css/StyleConverter$StringStore
+instanceKlass sun/net/www/protocol/jar/JarFileFactory
+instanceKlass sun/net/www/protocol/jar/URLJarFile$URLJarFileCloseController
+instanceKlass javafx/css/Stylesheet
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d4c400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d4c000
+instanceKlass  @bci com/sun/javafx/font/PrismFontFactory <clinit> ()V 59 <appendix> member <vmtarget> ; # com/sun/javafx/font/PrismFontFactory$$Lambda$152+0x0000000800d488b8
+instanceKlass java/io/FilenameFilter
+instanceKlass com/sun/javafx/font/PGFont
+instanceKlass com/sun/javafx/font/FontResource
+instanceKlass com/sun/javafx/font/PrismFontFactory
+instanceKlass com/sun/javafx/scene/text/TextLine
+instanceKlass java/text/CharacterIterator
+instanceKlass com/sun/javafx/scene/text/GlyphList
+instanceKlass com/sun/javafx/text/PrismTextLayout
+instanceKlass com/sun/javafx/scene/text/TextLayout
+instanceKlass com/sun/javafx/text/PrismTextLayoutFactory
+instanceKlass  @bci javafx/scene/text/Text <init> ()V 64 <appendix> member <vmtarget> ; # javafx/scene/text/Text$$Lambda$151+0x0000000800d47708
+instanceKlass  @bci javafx/scene/text/Text <init> ()V 37 <appendix> member <vmtarget> ; # javafx/scene/text/Text$$Lambda$150+0x0000000800d474f8
+instanceKlass javafx/scene/paint/Paint$1
+instanceKlass com/sun/javafx/tk/Toolkit$PaintAccessor
+instanceKlass javafx/scene/text/Text$1
+instanceKlass javafx/scene/shape/Shape$1
+instanceKlass com/sun/javafx/scene/text/TextSpan
+instanceKlass com/sun/javafx/scene/shape/TextHelper$TextAccessor
+instanceKlass com/sun/javafx/scene/shape/ShapeHelper$ShapeAccessor
+instanceKlass com/sun/javafx/scene/control/skin/Utils
+instanceKlass  @bci com/sun/javafx/css/StyleManager loadStylesheetUnPrivileged (Ljava/lang/String;)Ljavafx/css/Stylesheet; 7 <appendix> member <vmtarget> ; # com/sun/javafx/css/StyleManager$$Lambda$149+0x0000000800d3e028
+instanceKlass com/sun/javafx/css/StyleManager$ImageCache
+instanceKlass com/sun/javafx/css/StyleManager$InstanceHolder
+instanceKlass com/sun/javafx/css/StyleManager
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl _setPlatformUserAgentStylesheet (Ljava/lang/String;)V 370 <appendix> member <vmtarget> ; # com/sun/javafx/application/PlatformImpl$$Lambda$148+0x0000000800d3d838
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl _setAccessibilityTheme (Ljava/lang/String;)V 0 <appendix> argL0 ; # com/sun/javafx/application/PlatformImpl$$Lambda$147+0x0000000800d3d630
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication getHighContrastScheme (Ljava/lang/String;)Ljava/lang/String; 11 <appendix> member <vmtarget> ; # com/sun/glass/ui/win/WinApplication$$Lambda$146+0x0000000800d3d400
+instanceKlass java/util/concurrent/ConcurrentHashMap$MapEntry
+instanceKlass java/util/Collections$SynchronizedCollection
+instanceKlass java/util/Properties$EntrySet
+instanceKlass  @bci java/util/ResourceBundle$ResourceBundleProviderHelper loadPropertyResourceBundle (Ljava/lang/Module;Ljava/lang/Module;Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle; 14 <appendix> member <vmtarget> ; # java/util/ResourceBundle$ResourceBundleProviderHelper$$Lambda$145+0x0000000800ceba58
+instanceKlass sun/security/util/SecurityProperties
+instanceKlass sun/security/util/FilePermCompat
+instanceKlass  @bci java/util/ResourceBundle$ResourceBundleProviderHelper loadResourceBundle (Ljava/lang/Module;Ljava/lang/Module;Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle; 13 <appendix> member <vmtarget> ; # java/util/ResourceBundle$ResourceBundleProviderHelper$$Lambda$144+0x0000000800ceb848
+instanceKlass java/util/ResourceBundle$CacheKeyReference
+instanceKlass java/util/ResourceBundle$CacheKey
+instanceKlass  @bci java/util/ResourceBundle getLoader (Ljava/lang/Module;)Ljava/lang/ClassLoader; 6 <appendix> member <vmtarget> ; # java/util/ResourceBundle$$Lambda$143+0x0000000800ceb000
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$6
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl _setPlatformUserAgentStylesheet (Ljava/lang/String;)V 8 <appendix> argL0 ; # com/sun/javafx/application/PlatformImpl$$Lambda$142+0x0000000800d3cbf0
+instanceKlass javafx/scene/control/Control$1
+instanceKlass javafx/scene/control/Skin
+instanceKlass com/sun/javafx/scene/control/ControlHelper$ControlAccessor
+instanceKlass java/time/LocalDate
+instanceKlass java/time/chrono/ChronoLocalDate
+instanceKlass java/time/temporal/TemporalAdjuster
+instanceKlass java/time/temporal/Temporal
+instanceKlass java/time/temporal/TemporalAccessor
+instanceKlass sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator
+instanceKlass sun/reflect/generics/tree/TypeVariableSignature
+instanceKlass sun/reflect/generics/tree/ClassSignature
+instanceKlass sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl
+instanceKlass java/lang/reflect/ParameterizedType
+instanceKlass sun/reflect/generics/tree/MethodTypeSignature
+instanceKlass sun/reflect/generics/tree/Signature
+instanceKlass sun/reflect/generics/tree/FormalTypeParameter
+instanceKlass sun/reflect/generics/repository/AbstractRepository
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d36800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d36400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d36000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d35c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d35800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d35400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d35000
+# instanceKlass java/lang/invoke/LambdaForm$BMH+0x0000000800d34c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d34800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d34400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d34000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d33c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d33800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d33400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d33000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d32c00
+# instanceKlass java/lang/invoke/LambdaForm$BMH+0x0000000800d32800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d32400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d32000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d31c00
+instanceKlass java/lang/invoke/ClassSpecializer$Factory$1Var
+# instanceKlass java/lang/invoke/LambdaForm$BMH+0x0000000800d31800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d31400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d31000
+instanceKlass sun/invoke/util/ValueConversions$1
+instanceKlass sun/invoke/util/ValueConversions$WrapperCache
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800d30c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d30800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d30400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d30000
+instanceKlass com/sun/prism/Image$Serial
+instanceKlass com/sun/prism/Image$1
+instanceKlass javafx/scene/image/PixelFormat
+instanceKlass com/sun/javafx/image/PixelGetter
+instanceKlass com/sun/prism/Image$Accessor
+instanceKlass com/sun/prism/Image
+instanceKlass com/sun/javafx/iio/ImageFrame
+instanceKlass com/sun/javafx/iio/ImageMetadata
+instanceKlass com/sun/javafx/iio/jpeg/JPEGImageLoader$Lock
+instanceKlass  @bci com/sun/javafx/iio/jpeg/JPEGImageLoader <clinit> ()V 16 <appendix> argL0 ; # com/sun/javafx/iio/jpeg/JPEGImageLoader$$Lambda$141+0x0000000800d29408
+instanceKlass com/sun/javafx/iio/common/ImageLoaderImpl
+instanceKlass java/util/Vector$1
+instanceKlass com/sun/javafx/iio/common/ImageTools
+instanceKlass com/sun/javafx/iio/ImageFormatDescription$Signature
+instanceKlass com/sun/javafx/iio/common/ImageDescriptor
+instanceKlass com/sun/javafx/iio/bmp/BMPImageLoaderFactory
+instanceKlass com/sun/javafx/iio/png/PNGImageLoaderFactory
+instanceKlass com/sun/javafx/iio/jpeg/JPEGImageLoaderFactory
+instanceKlass com/sun/javafx/iio/ImageLoader
+instanceKlass com/sun/javafx/iio/ImageFormatDescription
+instanceKlass com/sun/javafx/iio/gif/GIFImageLoaderFactory
+instanceKlass com/sun/javafx/iio/ImageLoaderFactory
+instanceKlass com/sun/javafx/iio/ImageStorage$InstanceHolder
+instanceKlass com/sun/javafx/iio/ImageStorage
+instanceKlass com/sun/javafx/tk/quantum/PrismImageLoader2$PrismLoadListener
+instanceKlass com/sun/javafx/iio/ImageLoadListener
+instanceKlass com/sun/javafx/tk/quantum/PrismImageLoader2
+instanceKlass com/sun/javafx/util/DataURI
+instanceKlass java/util/LinkedList$ListItr
+instanceKlass javafx/beans/WeakInvalidationListener
+instanceKlass javafx/scene/image/ImageView$1
+instanceKlass com/sun/javafx/scene/ImageViewHelper$ImageViewAccessor
+instanceKlass com/sun/javafx/beans/event/AbstractNotifyListener
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d20000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1e400
+instanceKlass  @bci java/lang/ClassLoader definePackage (Ljava/lang/String;Ljava/lang/Module;)Ljava/lang/Package; 73 <appendix> member <vmtarget> ; # java/lang/ClassLoader$$Lambda$140+0x0000000800ce6b20
+instanceKlass com/sun/javafx/reflect/Trampoline
+instanceKlass com/sun/javafx/reflect/MethodUtil$1
+instanceKlass  @bci com/sun/javafx/fxml/MethodHelper <clinit> ()V 0 <appendix> argL0 ; # com/sun/javafx/fxml/MethodHelper$$Lambda$139+0x0000000800d1bda0
+instanceKlass com/sun/javafx/fxml/MethodHelper
+instanceKlass  @bci com/sun/javafx/fxml/ModuleHelper <clinit> ()V 0 <appendix> argL0 ; # com/sun/javafx/fxml/ModuleHelper$$Lambda$138+0x0000000800d1b9a8
+instanceKlass com/sun/javafx/fxml/ModuleHelper
+instanceKlass  @bci com/sun/javafx/fxml/BeanAdapter getMethodName (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; 14 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$MH+0x0000000800d1e000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1dc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1d800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1d400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1d000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1cc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1c800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1c400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800d1c000
+instanceKlass javafx/scene/Node$AccessibilityProperties
+instanceKlass javafx/scene/input/Clipboard
+instanceKlass javafx/scene/Node$MiscProperties
+instanceKlass javafx/scene/effect/Effect
+instanceKlass com/sun/javafx/geom/Point2D
+instanceKlass javafx/scene/Node$NodeTransformation
+instanceKlass com/sun/javafx/scene/EventHandlerProperties
+instanceKlass javafx/css/CssMetaData
+instanceKlass javafx/scene/Cursor
+instanceKlass javafx/scene/input/InputMethodRequests
+instanceKlass javafx/event/EventType
+instanceKlass javafx/scene/SnapshotParameters
+instanceKlass javafx/geometry/Point2D
+instanceKlass javafx/css/Selector
+instanceKlass com/sun/javafx/scene/traversal/TraversalEngine
+instanceKlass com/sun/javafx/scene/input/PickResultChooser
+instanceKlass com/sun/javafx/geom/PickRay
+instanceKlass javafx/scene/layout/Border
+instanceKlass javafx/scene/layout/Background
+instanceKlass javafx/scene/layout/CornerRadii
+instanceKlass javafx/scene/layout/BorderWidths
+instanceKlass com/sun/javafx/fxml/BeanAdapter$MethodCache
+instanceKlass com/sun/javafx/fxml/BeanAdapter$1
+instanceKlass javafx/geometry/Insets
+instanceKlass  @bci javafx/scene/layout/Region <init> ()V 6 <appendix> member <vmtarget> ; # javafx/scene/layout/Region$$Lambda$137+0x0000000800d172c0
+instanceKlass  @bci javafx/scene/Node <init> ()V 73 <appendix> member <vmtarget> ; # javafx/scene/Node$$Lambda$136+0x0000000800d11e68
+instanceKlass  @bci javafx/scene/Node <init> ()V 63 <appendix> member <vmtarget> ; # javafx/scene/Node$$Lambda$135+0x0000000800d11c58
+instanceKlass javafx/scene/layout/Pane$1
+instanceKlass com/sun/javafx/geom/Vec2d
+instanceKlass javafx/scene/layout/Region$1
+instanceKlass javafx/scene/Parent$1
+instanceKlass  @bci javafx/scene/PropertyHelper getBooleanProperty (Ljava/lang/String;)Z 1 <appendix> member <vmtarget> ; # javafx/scene/PropertyHelper$$Lambda$134+0x0000000800d105e0
+instanceKlass javafx/scene/PropertyHelper
+instanceKlass  @bci javafx/scene/Node <clinit> ()V 123 <appendix> argL0 ; # javafx/scene/Node$$Lambda$133+0x0000000800d101e8
+instanceKlass  @cpi javafx/scene/Node 3310 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800d14000
+instanceKlass com/sun/javafx/scene/BoundsAccessor
+instanceKlass javafx/collections/SetChangeListener$Change
+instanceKlass com/sun/javafx/css/BitSet
+instanceKlass javafx/css/PseudoClass
+instanceKlass javafx/geometry/Point3D
+instanceKlass com/sun/javafx/scene/transform/TransformHelper
+instanceKlass javafx/scene/transform/Transform$1
+instanceKlass com/sun/javafx/scene/transform/TransformHelper$TransformAccessor
+instanceKlass javafx/scene/transform/Transform
+instanceKlass com/sun/javafx/scene/NodeHelper
+instanceKlass javafx/scene/Node$1
+instanceKlass com/sun/javafx/scene/layout/PaneHelper$PaneAccessor
+instanceKlass com/sun/javafx/scene/layout/RegionHelper$RegionAccessor
+instanceKlass com/sun/javafx/sg/prism/NGNode
+instanceKlass com/sun/javafx/scene/ParentHelper$ParentAccessor
+instanceKlass com/sun/glass/ui/Accessible$EventHandler
+instanceKlass javafx/css/StyleableProperty
+instanceKlass com/sun/javafx/scene/NodeHelper$NodeAccessor
+instanceKlass com/sun/javafx/reflect/ConstructorUtil
+instanceKlass javafx/scene/shape/Mesh
+instanceKlass javafx/scene/text/Font
+instanceKlass javafx/scene/Scene
+instanceKlass java/util/TimerTask
+instanceKlass com/sun/javafx/reflect/ReflectUtil
+instanceKlass br/ufrn/imd/controle/ViewPrincipalController
+instanceKlass javafx/fxml/Initializable
+instanceKlass javafx/fxml/FXMLLoader$Attribute
+instanceKlass javafx/collections/MapChangeListener
+instanceKlass javafx/event/EventHandler
+instanceKlass java/util/EventListener
+instanceKlass javafx/beans/value/ChangeListener
+instanceKlass javafx/collections/SetChangeListener
+instanceKlass javafx/scene/control/MenuItem
+instanceKlass javafx/scene/control/Skinnable
+instanceKlass java/util/LinkedList$Node
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLChar
+instanceKlass com/sun/xml/internal/stream/util/BufferAllocator
+instanceKlass com/sun/xml/internal/stream/util/ThreadLocalBufferAllocator
+instanceKlass com/sun/xml/internal/stream/Entity
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLSymbols
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer
+instanceKlass com/sun/org/apache/xerces/internal/impl/msg/XMLMessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/util/MessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLErrorReporter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLLocator
+instanceKlass com/sun/xml/internal/stream/XMLEntityStorage
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceContextWrapper
+instanceKlass javax/xml/namespace/NamespaceContext
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLDTDDescription
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarDescription
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$TrailingMiscDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$PrologDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$XMLDeclDriver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceSupport
+instanceKlass com/sun/org/apache/xerces/internal/xni/NamespaceContext
+instanceKlass com/sun/org/apache/xerces/internal/util/AugmentationsImpl$AugmentationsItemsContainer
+instanceKlass com/sun/org/apache/xerces/internal/util/AugmentationsImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/Augmentations
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLAttributesImpl$Attribute
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLAttributesImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLAttributes
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$FragmentContentDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$Driver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack2
+instanceKlass com/sun/org/apache/xerces/internal/xni/QName
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLResourceIdentifierImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLResourceIdentifier
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLString
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLScanner
+instanceKlass com/sun/xml/internal/stream/XMLBufferListener
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLComponent
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentSource
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable$Entry
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLStreamReaderImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLInputSource
+instanceKlass javax/xml/stream/util/StreamReaderDelegate
+instanceKlass  @bci javax/xml/stream/FactoryFinder newInstance (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/ClassLoader;ZZ)Ljava/lang/Object; 104 <appendix> member <vmtarget> ; # javax/xml/stream/FactoryFinder$$Lambda$132+0x0000000800c3a420
+instanceKlass jdk/xml/internal/JdkConstants
+instanceKlass javax/xml/parsers/SAXParserFactory
+instanceKlass jdk/xml/internal/JdkXmlUtils
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager
+instanceKlass  @bci jdk/xml/internal/SecuritySupport isFileExists (Ljava/io/File;)Z 1 <appendix> member <vmtarget> ; # jdk/xml/internal/SecuritySupport$$Lambda$131+0x0000000800c38758
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager
+instanceKlass com/sun/org/apache/xerces/internal/impl/PropertyManager
+instanceKlass  @bci jdk/xml/internal/SecuritySupport getContextClassLoader ()Ljava/lang/ClassLoader; 0 <appendix> argL0 ; # jdk/xml/internal/SecuritySupport$$Lambda$130+0x0000000800c37650
+instanceKlass  @bci javax/xml/stream/FactoryFinder find (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Object; 361 <appendix> member <vmtarget> ; # javax/xml/stream/FactoryFinder$$Lambda$129+0x0000000800c37440
+instanceKlass jdk/internal/loader/URLClassPath$1
+instanceKlass java/lang/CompoundEnumeration
+instanceKlass jdk/internal/loader/BuiltinClassLoader$1
+instanceKlass java/util/Collections$EmptyEnumeration
+instanceKlass jdk/internal/loader/BuiltinClassLoader$2
+instanceKlass java/util/Spliterators$1Adapter
+instanceKlass java/util/Spliterators$ArraySpliterator
+instanceKlass javax/xml/stream/FactoryFinder$1
+instanceKlass  @bci jdk/xml/internal/SecuritySupport doesFileExist (Ljava/io/File;)Z 1 <appendix> member <vmtarget> ; # jdk/xml/internal/SecuritySupport$$Lambda$128+0x0000000800c366f8
+instanceKlass  @bci javax/xml/stream/FactoryFinder find (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Object; 1 <appendix> member <vmtarget> ; # javax/xml/stream/FactoryFinder$$Lambda$127+0x0000000800c364e8
+instanceKlass  @bci jdk/xml/internal/SecuritySupport getSystemProperty (Ljava/lang/String;)Ljava/lang/String; 1 <appendix> member <vmtarget> ; # jdk/xml/internal/SecuritySupport$$Lambda$126+0x0000000800c362d8
+instanceKlass jdk/xml/internal/SecuritySupport
+instanceKlass javax/xml/stream/FactoryFinder
+instanceKlass javax/xml/stream/XMLInputFactory
+instanceKlass sun/net/DefaultProgressMeteringPolicy
+instanceKlass sun/net/ProgressMeteringPolicy
+instanceKlass sun/net/ProgressMonitor
+instanceKlass javafx/fxml/FXMLLoader$ControllerAccessor
+instanceKlass javafx/collections/MapChangeListener$Change
+instanceKlass com/sun/javafx/collections/ObservableMapWrapper
+instanceKlass com/sun/javafx/fxml/FXMLLoaderHelper
+instanceKlass javafx/fxml/FXMLLoader$2
+instanceKlass  @bci javafx/fxml/FXMLLoader <clinit> ()V 72 <appendix> argL0 ; # javafx/fxml/FXMLLoader$$Lambda$125+0x0000000800ccaf80
+instanceKlass javafx/fxml/FXMLLoader$1
+instanceKlass com/sun/javafx/application/PlatformImpl$2
+instanceKlass javafx/application/Platform
+instanceKlass javafx/util/Builder
+instanceKlass javafx/fxml/JavaFXBuilderFactory
+instanceKlass  @bci javafx/fxml/FXMLLoader <clinit> ()V 13 <appendix> argL0 ; # javafx/fxml/FXMLLoader$$Lambda$124+0x0000000800cc9b68
+instanceKlass javax/script/Bindings
+instanceKlass javafx/fxml/FXMLLoader$Element
+instanceKlass javax/xml/stream/XMLStreamReader
+instanceKlass javax/xml/stream/XMLStreamConstants
+instanceKlass java/io/Reader
+instanceKlass com/sun/javafx/fxml/FXMLLoaderHelper$FXMLLoaderAccessor
+instanceKlass javafx/util/BuilderFactory
+instanceKlass javafx/fxml/FXMLLoader
+instanceKlass  @bci com/sun/javafx/collections/VetoableListDecorator <init> (Ljavafx/collections/ObservableList;)V 14 <appendix> member <vmtarget> ; # com/sun/javafx/collections/VetoableListDecorator$$Lambda$123+0x0000000800cc7000
+instanceKlass  @bci com/sun/javafx/collections/TrackableObservableList <init> ()V 13 <appendix> member <vmtarget> ; # com/sun/javafx/collections/TrackableObservableList$$Lambda$122+0x0000000800cc6df0
+instanceKlass com/sun/javafx/collections/VetoableListDecorator$ModCountAccessor
+instanceKlass com/sun/javafx/collections/VetoableListDecorator
+instanceKlass com/sun/javafx/event/EventDispatchChainImpl
+instanceKlass javafx/event/EventDispatchChain
+instanceKlass com/sun/javafx/event/BasicEventDispatcher
+instanceKlass javafx/event/EventDispatcher
+instanceKlass java/util/EventObject
+instanceKlass javafx/beans/binding/NumberBinding
+instanceKlass javafx/stage/Window$TKBoundsConfigurator
+instanceKlass com/sun/javafx/tk/TKPulseListener
+instanceKlass javafx/stage/Stage$2
+instanceKlass javafx/stage/Stage$1
+instanceKlass com/sun/javafx/stage/WindowHelper
+instanceKlass javafx/stage/Window$1
+instanceKlass javafx/beans/binding/StringExpression
+instanceKlass javafx/beans/value/ObservableStringValue
+instanceKlass javafx/beans/value/WritableStringValue
+instanceKlass com/sun/javafx/stage/WindowPeerListener
+instanceKlass com/sun/javafx/tk/TKStageListener
+instanceKlass com/sun/javafx/stage/StagePeerListener$StageAccessor
+instanceKlass com/sun/javafx/stage/StageHelper$StageAccessor
+instanceKlass com/sun/javafx/stage/WindowHelper$WindowAccessor
+instanceKlass javafx/beans/value/WritableDoubleValue
+instanceKlass javafx/beans/value/WritableNumberValue
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplication1 (Ljava/lang/Class;Ljava/lang/Class;[Ljava/lang/String;)V 415 <appendix> member <vmtarget> ; # com/sun/javafx/application/LauncherImpl$$Lambda$121+0x0000000800cafa20
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl setApplicationName (Ljava/lang/Class;)V 1 <appendix> member <vmtarget> ; # com/sun/javafx/application/PlatformImpl$$Lambda$120+0x0000000800caf810
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplication1 (Ljava/lang/Class;Ljava/lang/Class;[Ljava/lang/String;)V 303 <appendix> member <vmtarget> ; # com/sun/javafx/application/LauncherImpl$$Lambda$119+0x0000000800caf600
+instanceKlass com/sun/javafx/application/LauncherImpl$1
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplication (Ljava/lang/Class;Ljava/lang/Class;[Ljava/lang/String;)V 109 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800caa400
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplication (Ljava/lang/Class;Ljava/lang/Class;[Ljava/lang/String;)V 109 <appendix> member <vmtarget> ; # com/sun/javafx/application/LauncherImpl$$Lambda$118+0x0000000800caf1c8
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplication (Ljava/lang/Class;[Ljava/lang/String;)V 8 <appendix> argL0 ; # com/sun/javafx/application/LauncherImpl$$Lambda$117+0x0000000800caefc0
+instanceKlass java/lang/StackTraceElement$HashedModules
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800caa000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800ca9c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800ca9800
+instanceKlass javafx/stage/Window
+instanceKlass javafx/scene/Node
+instanceKlass javafx/css/Styleable
+instanceKlass javafx/event/EventTarget
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800ca9400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800ca9000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000000800ca8c00
+instanceKlass java/lang/annotation/Target
+instanceKlass java/lang/reflect/Proxy$ProxyBuilder$1
+instanceKlass jdk/internal/org/objectweb/asm/Edge
+instanceKlass java/lang/reflect/ProxyGenerator$PrimitiveTypeInfo
+instanceKlass  @bci java/lang/reflect/ProxyGenerator addProxyMethod (Ljava/lang/reflect/Method;Ljava/lang/Class;)V 23 <appendix> argL0 ; # java/lang/reflect/ProxyGenerator$$Lambda$116+0x0000000800c33258
+instanceKlass  @bci java/lang/reflect/ProxyGenerator addProxyMethod (Ljava/lang/reflect/ProxyGenerator$ProxyMethod;)V 10 <appendix> argL0 ; # java/lang/reflect/ProxyGenerator$$Lambda$115+0x0000000800c33030
+instanceKlass java/lang/reflect/ProxyGenerator$ProxyMethod
+instanceKlass  @bci java/lang/reflect/Proxy getLoader (Ljava/lang/Module;)Ljava/lang/ClassLoader; 6 <appendix> member <vmtarget> ; # java/lang/reflect/Proxy$$Lambda$114+0x0000000800c32928
+instanceKlass  @bci java/lang/WeakPairMap computeIfAbsent (Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object; 18 <appendix> member <vmtarget> ; # java/lang/WeakPairMap$$Lambda$113+0x0000000800c326f8
+instanceKlass  @bci java/lang/Module implAddExportsOrOpens (Ljava/lang/String;Ljava/lang/Module;ZZ)V 143 <appendix> argL0 ; # java/lang/Module$$Lambda$112+0x0000000800c324e0
+instanceKlass  @bci java/lang/reflect/Proxy$ProxyBuilder getDynamicModule (Ljava/lang/ClassLoader;)Ljava/lang/Module; 4 <appendix> argL0 ; # java/lang/reflect/Proxy$ProxyBuilder$$Lambda$111+0x0000000800c322c8
+instanceKlass java/lang/PublicMethods
+instanceKlass java/util/Collections$1
+instanceKlass java/lang/reflect/Proxy$ProxyBuilder
+instanceKlass  @bci java/lang/reflect/Proxy getProxyConstructor (Ljava/lang/Class;Ljava/lang/ClassLoader;[Ljava/lang/Class;)Ljava/lang/reflect/Constructor; 35 <appendix> argL0 ; # java/lang/reflect/Proxy$$Lambda$110+0x0000000800c315d0
+instanceKlass java/lang/reflect/Proxy
+instanceKlass sun/reflect/annotation/AnnotationInvocationHandler
+instanceKlass java/lang/reflect/InvocationHandler
+instanceKlass sun/reflect/annotation/AnnotationParser$1
+instanceKlass sun/reflect/annotation/ExceptionProxy
+instanceKlass java/lang/annotation/Inherited
+instanceKlass java/lang/annotation/Retention
+instanceKlass sun/reflect/annotation/AnnotationType$1
+instanceKlass sun/reflect/annotation/AnnotationType
+instanceKlass java/lang/reflect/GenericArrayType
+instanceKlass sun/reflect/generics/visitor/Reifier
+instanceKlass sun/reflect/generics/visitor/TypeTreeVisitor
+instanceKlass sun/reflect/generics/factory/CoreReflectionFactory
+instanceKlass sun/reflect/generics/factory/GenericsFactory
+instanceKlass sun/reflect/generics/scope/AbstractScope
+instanceKlass sun/reflect/generics/scope/Scope
+instanceKlass sun/reflect/generics/tree/ClassTypeSignature
+instanceKlass sun/reflect/generics/tree/SimpleClassTypeSignature
+instanceKlass sun/reflect/generics/tree/FieldTypeSignature
+instanceKlass sun/reflect/generics/tree/BaseType
+instanceKlass sun/reflect/generics/tree/TypeSignature
+instanceKlass sun/reflect/generics/tree/ReturnType
+instanceKlass sun/reflect/generics/tree/TypeArgument
+instanceKlass sun/reflect/generics/tree/TypeTree
+instanceKlass sun/reflect/generics/tree/Tree
+instanceKlass sun/reflect/generics/parser/SignatureParser
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl lambda$runLater$11 (Ljava/lang/Runnable;Ljava/security/AccessControlContext;)V 1 <appendix> member <vmtarget> ; # com/sun/javafx/application/PlatformImpl$$Lambda$109+0x0000000800ca7da8
+instanceKlass com/sun/glass/ui/InvokeLaterDispatcher$Future
+instanceKlass java/util/concurrent/LinkedBlockingDeque$Node
+instanceKlass com/sun/scenario/animation/AbstractPrimaryTimer$MainLoop
+instanceKlass com/sun/scenario/DelayedRunnable
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl runLater (Ljava/lang/Runnable;Z)V 68 <appendix> member <vmtarget> ; # com/sun/javafx/application/PlatformImpl$$Lambda$108+0x0000000800ca7568
+instanceKlass com/sun/scenario/animation/shared/TimerReceiver
+instanceKlass com/sun/scenario/animation/shared/PulseReceiver
+instanceKlass  @bci com/sun/javafx/application/PlatformImpl runAndWait (Ljava/lang/Runnable;Z)V 43 <appendix> member <vmtarget> ; # com/sun/javafx/application/PlatformImpl$$Lambda$107+0x0000000800ca6bc8
+instanceKlass com/sun/javafx/animation/TickCalculation
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplicationWithArgs (Lcom/sun/javafx/application/ModuleAccess;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V 55 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800ca8800
+instanceKlass  @bci com/sun/scenario/animation/AbstractPrimaryTimer <clinit> ()V 16 <appendix> argL0 ; # com/sun/scenario/animation/AbstractPrimaryTimer$$Lambda$106+0x0000000800ca67d0
+instanceKlass  @bci com/sun/javafx/application/LauncherImpl launchApplicationWithArgs (Lcom/sun/javafx/application/ModuleAccess;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V 55 <appendix> member <vmtarget> ; # com/sun/javafx/application/LauncherImpl$$Lambda$105+0x0000000800ca65c0
+instanceKlass com/sun/scenario/Settings
+instanceKlass  @cpi com/sun/javafx/application/LauncherImpl 868 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800ca8400
+instanceKlass java/util/AbstractList$Itr
+instanceKlass javafx/collections/ListChangeBuilder$SubChange
+instanceKlass javafx/geometry/Rectangle2D
+instanceKlass  @bci javafx/stage/Screen <clinit> ()V 29 <appendix> argL0 ; # javafx/stage/Screen$$Lambda$104+0x0000000800ca5d78
+instanceKlass  @cpi javafx/stage/Screen 283 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800ca8000
+instanceKlass com/sun/javafx/tk/TKScreenConfigurationListener
+instanceKlass com/sun/javafx/binding/ExpressionHelperBase
+instanceKlass javafx/collections/WeakListChangeListener
+instanceKlass javafx/beans/WeakListener
+instanceKlass  @bci javafx/collections/FXCollections$UnmodifiableObservableListImpl <init> (Ljavafx/collections/ObservableList;)V 11 <appendix> member <vmtarget> ; # javafx/collections/FXCollections$UnmodifiableObservableListImpl$$Lambda$103+0x0000000800ca4b00
+instanceKlass javafx/collections/ListChangeListener
+instanceKlass javafx/collections/ListChangeBuilder
+instanceKlass javafx/collections/ListChangeListener$Change
+instanceKlass javafx/util/Callback
+instanceKlass com/sun/javafx/collections/SortableList
+instanceKlass javafx/collections/FXCollections$EmptyObservableList$1
+instanceKlass javafx/collections/ObservableIntegerArray
+instanceKlass javafx/collections/ObservableFloatArray
+instanceKlass javafx/collections/ObservableArray
+instanceKlass javafx/collections/ObservableSet
+instanceKlass javafx/collections/ObservableList
+instanceKlass javafx/collections/ObservableMap
+instanceKlass javafx/collections/FXCollections
+instanceKlass javafx/stage/Screen
+instanceKlass  @bci com/sun/javafx/tk/quantum/QuantumToolkit runToolkit ()V 55 <appendix> member <vmtarget> ; # com/sun/javafx/tk/quantum/QuantumToolkit$$Lambda$102+0x0000000800c9f570
+instanceKlass  @bci com/sun/javafx/tk/quantum/QuantumToolkit runToolkit ()V 45 <appendix> member <vmtarget> ; # com/sun/javafx/tk/quantum/QuantumToolkit$$Lambda$101+0x0000000800c9f360
+instanceKlass com/sun/prism/impl/ps/BaseShaderContext$State
+instanceKlass com/sun/javafx/geom/Vec3d
+instanceKlass com/sun/prism/impl/VertexBuffer
+instanceKlass com/sun/javafx/geom/BaseBounds
+instanceKlass com/sun/javafx/geom/transform/GeneralTransform3D
+instanceKlass com/sun/javafx/geom/transform/BaseTransform
+instanceKlass com/sun/javafx/geom/transform/CanTransformVec3d
+instanceKlass com/sun/prism/MaskTextureGraphics
+instanceKlass com/sun/prism/ReadbackGraphics
+instanceKlass com/sun/prism/ps/ShaderGraphics
+instanceKlass com/sun/prism/impl/BaseGraphics
+instanceKlass com/sun/prism/RectShadowGraphics
+instanceKlass com/sun/prism/Graphics
+instanceKlass com/sun/prism/impl/BaseContext
+instanceKlass com/sun/prism/ps/Shader
+instanceKlass com/sun/prism/Presentable
+instanceKlass com/sun/prism/MeshView
+instanceKlass com/sun/prism/Mesh
+instanceKlass com/sun/prism/RTTexture
+instanceKlass com/sun/prism/RenderTarget
+instanceKlass com/sun/prism/Surface
+instanceKlass com/sun/prism/Texture
+instanceKlass com/sun/prism/PhongMaterial
+instanceKlass com/sun/prism/Material
+instanceKlass com/sun/prism/impl/TextureResourcePool
+instanceKlass com/sun/prism/impl/ResourcePool
+instanceKlass com/sun/prism/shape/ShapeRep
+instanceKlass java/util/concurrent/Executors$RunnableAdapter
+instanceKlass java/util/concurrent/FutureTask$WaitNode
+instanceKlass  @bci com/sun/javafx/tk/quantum/QuantumRenderer createResourceFactory ()V 16 <appendix> argL0 ; # com/sun/javafx/tk/quantum/QuantumRenderer$$Lambda$100+0x0000000800c95400
+instanceKlass  @bci com/sun/javafx/tk/quantum/QuantumRenderer createResourceFactory ()V 10 <appendix> member <vmtarget> ; # com/sun/javafx/tk/quantum/QuantumRenderer$$Lambda$99+0x0000000800c95cd0
+instanceKlass java/util/concurrent/FutureTask
+instanceKlass  @bci com/sun/glass/ui/Screen <clinit> ()V 4 <appendix> argL0 ; # com/sun/glass/ui/Screen$$Lambda$98+0x0000000800c95800
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication lambda$runLoop$4 (ILjava/lang/Runnable;)Ljava/lang/Thread; 7 <appendix> member <vmtarget> ; # com/sun/glass/ui/win/WinApplication$$Lambda$97+0x0000000800c97bf0
+instanceKlass  @cpi com/sun/glass/ui/win/WinApplication 503 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800c95000
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication runLoop (Ljava/lang/Runnable;)V 58 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x0000000800c94c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000000800c94800
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication runLoop (Ljava/lang/Runnable;)V 58 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000000800c94400
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication runLoop (Ljava/lang/Runnable;)V 58 <appendix> member <vmtarget> ; # com/sun/glass/ui/win/WinApplication$$Lambda$96+0x0000000800c979e0
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication getDesiredAwarenesslevel ()I 8 <appendix> argL0 ; # com/sun/glass/ui/win/WinApplication$$Lambda$95+0x0000000800c977d8
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication runLoop (Ljava/lang/Runnable;)V 0 <appendix> argL0 ; # com/sun/glass/ui/win/WinApplication$$Lambda$94+0x0000000800c975d0
+instanceKlass  @bci com/sun/glass/ui/Application run (Ljava/lang/Runnable;)V 29 <appendix> member <vmtarget> ; # com/sun/glass/ui/Application$$Lambda$93+0x0000000800c973c0
+instanceKlass java/util/concurrent/BlockingDeque
+instanceKlass  @bci com/sun/glass/ui/win/WinApplication <init> ()V 4 <appendix> argL0 ; # com/sun/glass/ui/win/WinApplication$$Lambda$92+0x0000000800c96f40
+instanceKlass java/lang/ProcessEnvironment$CheckedEntry
+instanceKlass java/lang/ProcessEnvironment$CheckedEntrySet$1
+instanceKlass java/lang/ProcessEnvironment$EntryComparator
+instanceKlass java/lang/ProcessEnvironment$NameComparator
+instanceKlass com/sun/glass/ui/win/WinApplication$1
+instanceKlass com/sun/glass/ui/Accessible
+instanceKlass com/sun/glass/ui/View
+instanceKlass com/sun/glass/ui/Pixels
+instanceKlass com/sun/glass/ui/Cursor
+instanceKlass com/sun/glass/ui/Window
+instanceKlass com/sun/glass/ui/Timer
+instanceKlass com/sun/glass/ui/GlassRobot
+instanceKlass com/sun/glass/ui/InvokeLaterDispatcher$InvokeLaterSubmitter
+instanceKlass com/sun/glass/ui/delegate/MenuDelegate
+instanceKlass com/sun/glass/ui/delegate/MenuBarDelegate
+instanceKlass com/sun/glass/ui/delegate/ClipboardDelegate
+instanceKlass com/sun/glass/ui/delegate/MenuItemDelegate
+instanceKlass  @bci com/sun/glass/ui/Platform determinePlatform ()Ljava/lang/String; 6 <appendix> argL0 ; # com/sun/glass/ui/Platform$$Lambda$91+0x0000000800c91058
